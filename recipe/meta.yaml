@@ -1,6 +1,6 @@
 {% set name = "scikit-surprise" %}
-{% set version = "1.0.4" %}
-{% set sha256 = "538ff0adc237ac399babf70186a0c46aa2af6809e2b08d2938404291d04be7cf" %}
+{% set version = "1.0.5" %}
+{% set sha256 = "228d70be7a38a54fcf4582849064d9754c46ad9a867dd65145d179b9afabaf43" %}
 
 package:
   name: {{ name|lower }}
@@ -36,6 +36,7 @@ test:
     - surprise.similarities
     - surprise.dataset
     - surprise.evaluate
+    - surprise.model_selection
 
 about:
   home: http://surpriselib.com
