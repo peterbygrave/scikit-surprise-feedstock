@@ -36,7 +36,6 @@ test:
     - surprise.prediction_algorithms
     - surprise.similarities
     - surprise.dataset
-    - surprise.evaluate
     - surprise.model_selection
 
 about:
