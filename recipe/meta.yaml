@@ -42,6 +42,7 @@ about:
   home: http://surpriselib.com
   license: BSD-3-Clause
   license_family: BSD
+  license_file: LICENSE.md
   summary: 'A Python scikit for building and analyzing recommender systems.'
 
   description:
