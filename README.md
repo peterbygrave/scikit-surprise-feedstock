@@ -5,7 +5,7 @@ Home: http://surpriselib.com
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A Python scikit for building and analyzing recommender systems.
 
