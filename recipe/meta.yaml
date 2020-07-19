@@ -1,6 +1,6 @@
 {% set name = "scikit-surprise" %}
-{% set version = "1.1.0" %}
-{% set sha256 = "7a01a271814ffbe2ace95ab22376bd78ea8d229d9159c6415ddfbed4a4e5259d" %}
+{% set version = "1.1.1" %}
+{% set sha256 = "269ce1f74fd4639e66566b733ea211b05611c257e8a691471a0fbd7d9a7987b7" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1002
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
