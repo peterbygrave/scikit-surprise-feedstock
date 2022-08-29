@@ -28,7 +28,6 @@ requirements:
     - python
     - {{ pin_compatible('numpy') }}
     - joblib
-    - six
 
 test:
   imports:
