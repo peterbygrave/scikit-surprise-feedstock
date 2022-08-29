@@ -1,6 +1,6 @@
 {% set name = "scikit-surprise" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "269ce1f74fd4639e66566b733ea211b05611c257e8a691471a0fbd7d9a7987b7" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "1142898bd746566bcb894854998b9a02e70be1122efd82163d36eee6fb587b74" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 2
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -28,7 +28,6 @@ requirements:
     - python
     - {{ pin_compatible('numpy') }}
     - joblib
-    - six
 
 test:
   imports:
